@@ -1,0 +1,207 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+
+    background-image: url('../img/background_page.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+     max-width: 1440px;
+     margin:0 auto;
+}
+
+.container{
+    padding-right:150px;
+    padding-left:150px; 
+    
+}
+.header-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:71px;
+    position: relative;
+    margin-bottom:47px;
+
+    
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    border-radius: 20px;
+    width:463px;
+    align-items: center;
+    background-color: #9688E7;
+    cursor: pointer;
+}
+.search_img{
+    vertical-align: middle;
+    position:absolute;
+    top:15px;
+    left:20px;
+}
+
+.site-search{
+    width:336px;
+    height: 37px;
+    padding-left:24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border:none;
+}
+.search-img_block{
+    line-height: 37px;
+}
+.logo_wrap{
+    padding-top:20px;
+}
+
+
+.message_header{
+    margin-top:98px;
+    margin-bottom:18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 40px;
+    color: #1E1E1E;
+    text-align: center;
+}
+.application_sections-block{
+    margin:0 auto;
+}
+.application_sections-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 944px;
+    list-style-type: none;
+    height: 166px;
+    background: #9688E7;
+    border-radius: 20px;
+    
+    }
+    
+    .new-application_img{
+        background-image: url('../img/frame.jpg');
+        background-repeat: no-repeat;
+        width:133px;
+        height: 133px;
+        cursor: pointer; 
+        background-size: contain;
+    }
+    .application_text{
+        width: 529px;
+        height: 133px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding:10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    .application_wrap-flex{
+        display: flex;
+        justify-content: space-around;
+        
+        flex-direction: column;
+
+        
+    }
+    .white_btn{
+        width: 205px;
+        height: 133px;
+        background: linear-gradient(95.92deg, #FFCD29 0.67%, #DE9322 100.91%);
+        box-shadow: 3.31228px 3.31228px 8.2807px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        border-style: none; 
+        color: #FFFFFF;
+        text-transform: uppercase;
+        cursor: pointer;
+        
+    }
+    @font-face {
+        font-family: "inter";
+        src: url("inter.woff") format("woff"),
+        url("/fonts/inter") format("woff");
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .reg_items, .auth_items {
+        text-decoration: none;
+        text-align: center;
+        line-height: 56px;
+        width: 173px;
+        display: block;
+        background: linear-gradient(360deg, #FAC917 20.83%, #DE9322 100%);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .reg-auth_btn-block {
+        display: flex;
+        justify-content: space-between;
+        width:387px;
+    }
+    
+    .reg_items {
+        position: relative;
+        margin-bottom: 15px;
+    }
+    
+    .reg_items-no-svg {
+        position: relative;
+        margin-bottom: 15px;
+        text-decoration: none;
+        text-align: center;
+        line-height: 56px;
+        width: 173px;
+        display: block;
+        background: linear-gradient(360deg, #FAC917 20.83%, #DE9322 100%);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .reg_items::before {
+        content: '';
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        width: 24px;
+        height: 24px;
+        background-image: url(../img/arrow-auth.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    

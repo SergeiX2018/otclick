@@ -1,0 +1,19 @@
+RewriteEngine On
+
+RewriteRule ^id/([0-9]+) users.php?id=$1
+
+RewriteRule ^id/([0-9]+) office_volunteer.php?id=$1
+RewriteRule ^id/([0-9]+) office_needy.php?id=$1
+RewriteRule ^id/([0-9]+) drafting.php?id=$1
+RewriteRule ^id/([0-9]+) new_application.php?id=$1
+RewriteRule ^id/([0-9]+) application_complete.php?id=$1
+RewriteRule ^id/([0-9]+) applications_check.php?id=$1
+RewriteRule ^id/([0-9]+) dialogue_volunteers.php?id=$1
+ewriteRule ^id/([0-9]+) dialogue_needy.php?id=$1
+RewriteRule ^id/([0-9]+) info_shelters.php?id=$1
+RewriteRule ^id/([0-9]+) info_events.php?id=$1
+RewriteRule ^id/([0-9]+) index.php?id=$1
+RewriteRule ^id/([0-9]+) decoration_complete.php?id=$1
+
+
+

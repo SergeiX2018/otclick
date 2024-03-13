@@ -1,0 +1,622 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body {
+    background-image: url(../img/background_page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 43px;
+    position: relative;
+    margin-bottom: 47px;
+}
+
+.help_img::before {
+    content: '';
+    background-image: url(../img/help.png);
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    color: #313131;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+.office_items {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #313131;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.office_items::before {
+    display: inline-block;
+    content: url(../img/email.png);
+    width: 27px;
+    height: 20px;
+    color: #313131;
+    vertical-align: middle;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+}
+
+.exit_items {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #313131;
+    text-decoration: none;
+    border-left: 2px solid #313131;
+    padding-left: 5px;
+}
+
+.office_items {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #313131;
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+.office-exit_btn-block::before {
+    content: '0';
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    z-index: 4;
+    bottom: 20px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #FF4545;
+    background-repeat: no-repeat;
+    bottom: 10px;
+}
+
+.office-exit_btn-block {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_img {
+    width: 260px;
+    height: 78px;
+}
+
+
+.new-application_header{
+    margin-top:98px;
+    margin-bottom:84px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 40px;
+    color: #1E1E1E;
+    text-align: center;
+}
+
+.application_sections-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    border-radius: 20px;
+    }
+    
+    .new-application_img{
+        background-image: url('../img/frame.jpg');
+        background-repeat: no-repeat;
+        width:133px;
+        height: 133px;
+        cursor: pointer; 
+        background-size: contain;
+    }
+
+    .application_btn-flex{
+        display: flex;
+        flex-direction: column;
+        gap:11px;
+    }
+
+    .application_text{
+        width: 529px;
+        height: 133px;
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding:10px;
+        box-sizing: border-box;
+    }
+
+    .application_wrap-flex{
+        display: flex;
+        justify-content: space-around;
+        background: #9688E7;
+        margin-bottom: 30px;
+        align-items: center;
+        width:944px;
+        height: 166px;
+        border-radius: 20px;
+    }
+    
+    .new-application_btn{
+        display: block;
+
+        width: 205px;
+        height: 61px;
+        line-height: 61px;
+        text-decoration: none;
+        text-align: center;
+        background: linear-gradient(95.92deg, #FFCD29 0.67%, #DE9322 100.91%);
+        box-shadow: 3.31228px 3.31228px 8.2807px rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        border:none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        color: #FFFFFF;
+    }
+
+    @font-face {
+        font-family: "inter";
+        src: url("inter.woff") format("woff"),
+        url("/fonts/inter") format("woff");
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .reg_items, .auth_items {
+        text-decoration: none;
+        text-align: center;
+        line-height: 56px;
+        width: 173px;
+        display: block;
+        background: linear-gradient(360deg, #FAC917 20.83%, #DE9322 100%);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .reg-auth_btn-block {
+        display: flex;
+        justify-content: space-between;
+        width:387px;
+    }
+    
+    .reg_items {
+        position: relative;
+        margin-bottom: 15px;
+    }
+    
+    .reg_items-no-svg {
+        position: relative;
+        margin-bottom: 15px;
+        text-decoration: none;
+        text-align: center;
+        line-height: 56px;
+        width: 173px;
+        display: block;
+        background: linear-gradient(360deg, #FAC917 20.83%, #DE9322 100%);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    
+    .reg_items::before {
+        content: "";
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-image: url(../img/arrow-auth.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-right: 10px;
+        vertical-align: middle;
+    }
+
+    .footer_wrap {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 208px;
+        align-items: center;
+        background: rgb(125, 119, 165);
+    }
+
+    .logo_wrap {
+        padding-bottom: 23px;
+    }
+
+    .support {
+        text-decoration: none;
+        margin-right: 200px;
+        display: block;
+        width: 174px;
+        height: 46px;
+        text-align: center;
+        line-height: 46px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        background: linear-gradient(rgb(255, 205, 41) 0%, rgb(222, 147, 34) 100%);
+        box-shadow: rgba(0, 0, 0, 0.25) 4px 4px 10px;
+        border-radius: 15px;
+    }
+
+    .contacts_wrap {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        position: relative;
+    }
+
+    .contacts_items-phone, .contacts_items-email, .contacts_items-address {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        color: #1E1E1E;
+        padding-top: 19px;
+    }
+
+    .contacts_items-phone::before {
+        content: url(style.css);
+        background-image: url(../img/phone.png);
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        color: #1E1E1E;
+        display: inline-block;
+        padding-right: 20px;
+        vertical-align: middle;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .contacts_items-email::before {
+        content: url(style.css);
+        background-image: url(../img/email_footer.png);
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        display: inline-block;
+        padding-right: 20px;
+        vertical-align: middle;
+        background-position: center;
+        color: #1E1E1E;
+        background-size: contain;
+    }
+
+    .contacts_items-address::before {
+        content: url(style.css);
+        background-image: url(../img/address.png);
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        color: #1E1E1E;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        padding-right: 20px;
+        vertical-align: middle;
+        background-position: center;
+    }
+
+    .footer_social-list {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        width: 174px;
+        gap: 39px;
+    }
+
+    .footer_social-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 174px;
+    gap: 39px;
+}
+
+.write_btn::before {
+    content: url(profile_needy.css);
+    background-image: url(../img/write_email.png);
+    width: 30px;
+    display: inline-block;
+    height: 30px;
+    color: #313131;
+    vertical-align: middle;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contacts_items-address{
+    padding-bottom: 19px;
+}
+
+@media  (max-width: 425px){
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
+      .container{
+        padding:0;
+      }
+
+    .auth_form{
+        width:200px;
+    }
+
+    .right_group-block{
+        display: none;
+    }
+
+    .application_btn-flex {
+        gap: 5px;
+    }
+
+    .reg-auth_btn-block {
+        justify-content: space-around;
+        width: 160px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 8px;
+        gap: 10px;
+    }
+    
+    .logo_img {
+        width: 60px;
+        height: 30px;
+    }
+
+    .new-application_header{
+        font-size: 14px;
+        margin:0;
+        margin-bottom:30px;
+    }
+
+    .application_sections-wrap {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .application_wrap-flex {
+        width: 300px;
+        height:70px;
+    }
+
+    .new-application_img { 
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+    }
+
+    .application_text {
+        width: 150px;
+        height: 60px;
+        font-size: 10px;
+    }
+
+    .new-application_btn {
+        display: block;
+        width: 73px;
+        height: 27px;
+        font-size: 10px;
+        line-height: 27px;
+    }
+
+    .new-application_btn::before {
+       width:12px;
+       height: 12px;
+    }
+ 
+    .footer_wrap{
+        justify-content: flex-start;
+        margin-top: 230px;
+   }
+
+   .support{
+       width: 120px;
+       height: 30px;
+       font-size: 8px;
+       line-height: 30px;
+       margin-right: 5px;
+   }
+
+   .new-application_btn::before {
+    padding-right: 5px;
+}
+
+   .logo{
+       padding-left:40px;
+   }
+
+   .footer_social-list{
+       gap:10px;
+       width:100px;
+   }
+   .youtube, .telegram{
+       width:25px;
+   }
+
+
+   .logo_top{
+       padding-left:20px;
+   }
+
+   .contacts_items-phone::before, .contacts_items-email::before, .contacts_items-address::before{
+        width:15px;
+        height: 15px;
+   }
+
+   .contacts_items-address::before{
+        width:20px;
+        height: 20px;
+    }
+
+    .contacts_items-address {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 1200px){
+    html, body {
+        overflow-x: hidden;
+      }
+      
+      body {
+        position: relative
+      }
+
+    .container{
+        padding:0;
+    }
+
+    .header-wrap{
+        margin-bottom:30px;
+    }
+
+    .logo_wrap{
+        padding:0;
+    }
+
+    .logo_img{
+        width:100px;
+        height: 50px;
+    }
+
+    .footer_social-list{
+        gap:20px;
+
+    }
+
+    .youtube, .telegram{
+        width:25px;
+    }
+    
+    .logo_top{
+        padding-left:35px;
+    }
+
+    .application_wrap-flex {
+        width: 620px;
+        height: 150px
+    }
+
+    .application_text {
+        width: 350px;
+        height: 120px;
+    }
+
+    .new-application_btn {
+        width: 130px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+    }
+
+
+    .write_btn::before {
+        content: url(profile_needy.css);
+        background-image: url(../img/write_email.png);
+        width: 20px;
+        display: inline-block;
+        height: 20px;
+        color: #313131;
+        vertical-align: middle;
+        padding-right: 10px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+
+    .new-application_img {
+        width: 120px;
+        height: 120px;
+        border-radius: 20px;
+    }
+
+    .application_sections-wrap {
+       width:100%;
+       justify-content: center;
+    }
+
+    .support {
+        font-size: 14px;
+        margin-right: 80px;
+    }
+
+    .reg_items, .reg_items-no-svg{
+        width: 120px;
+        height: 45px;
+        font-size: 14px;
+        line-height: 45px
+    }
+
+    .reg-auth_btn-block {
+        justify-content: space-around;
+        width: 300px;
+    }
+
+    .new-application_header {
+        font-size: 30px;
+    }
+
+    .logo_img-footer{
+        width:100px;
+        height: 50px;
+        padding-left: 40px;
+    }
+
+    .contacts_items-address {
+       display: flex;
+       align-items: center;
+    }
+
+}
+
+
+
+    
